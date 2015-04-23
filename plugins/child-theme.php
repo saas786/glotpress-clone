@@ -12,7 +12,7 @@ class CUSTOM_Child_Theme extends GP_Plugin {
     }
 
     public function plugins_loaded() {
-        $this->child_path = dirname( __FILE__ ) . '/child-theme/';
+        $this->child_path = dirname( __FILE__ ) . '/gp-child-theme/';
     }
 
     public function tmpl_load_locations( $locations, $template, $args, $template_path ) {
